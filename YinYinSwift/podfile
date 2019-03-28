@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your projecti
+# platform :ios, '9.0'
+
+target 'YinYinSwift' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+ pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'Kingfisher'
+  pod 'SwiftTheme'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SQLite.swift'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh'
+  pod 'FDFullscreenPopGesture'
+  pod 'lottie-ios'
+  # Pods for YinYinSwift
+
+  target 'YinYinSwiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'YinYinSwiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

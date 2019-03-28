@@ -1,0 +1,6 @@
+framework module Pods_YinYinSwift {
+  umbrella header "Pods-YinYinSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
