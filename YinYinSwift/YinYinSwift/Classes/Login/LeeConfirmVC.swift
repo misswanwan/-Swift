@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class LeeConfirmVC: LeeBaseVC ,LeeStoryboardLoad {
     @IBOutlet weak var eyeButton: UIButton!
@@ -36,7 +37,7 @@ class LeeConfirmVC: LeeBaseVC ,LeeStoryboardLoad {
         passwordTextField.isSecureTextEntry = !eyeButton.isSelected
     }
     @IBAction func codeLoginAction(_ sender: Any) {
-        let confirmVC = LeeConfirmVC.loadStoryboard()
+        let confirmVC = LeePhoneCodeVC.loadStoryboard()
        navigationController?.pushViewController(confirmVC, animated: true)
     }
     @IBAction func confirmAction(_ sender: Any) {
@@ -57,14 +58,42 @@ extension LeeConfirmVC{
     
     func validPassword(password:String?){
         guard let _ = password else {
-            alertAction(alertTitle: "提示", alertMsg: "请输入密码")
+            SVProgressHUD.showInfo(withStatus: "请输入密码确")
             return
         }
         
-        if(password!.count<7){
-            alertAction(alertTitle: "提示", alertMsg: "密码不能少于七位")
+        if(password!.count<6){
+            SVProgressHUD.showInfo(withStatus: "密码不能少于6位")
         }else{
-             
+            if(String.validPassword(password: password)){
+                let phoneNumber =  UserDefaults.standard.value(forKey: String.lee_phoneNumberKey())as! String
+//                let md5Password = String.MD5Encode(md5str: passwordTextField.text!)
+                NetworkTool.loginRequest(mobile: phoneNumber, md5Password: "e7174e60319a2a131122a95421f1f5de", completionHandler: { [weak self]  (dataDic) in
+                    let code = dataDic["code"]as!NSNumber
+                    if code == leeNetworkReturnSuccess {
+                        let dic : Dictionary = dataDic["object"] as! [String: Any]
+                        //设置token 和 userid 到本地
+                        if  let token = dic["token"]{
+                             UserDefaults.standard.set(token, forKey: String.lee_userToken())
+                        }
+                        if let userId  = dic["id"]{
+                            UserDefaults.standard.set(userId, forKey: String.lee_useridKey())
+                        }
+                        LeeUserManager.shared.userModel = LeeUserModel.deserialize(from: dic)!
+                        self?.dismiss(animated: true, completion: nil)
+                    }else{
+                        SVProgressHUD.showError(withStatus: "密码错误")
+                    }
+                  
+                }) {(error) in
+                    SVProgressHUD.showError(withStatus: error?.localizedDescription)
+                }
+         
+            }else{
+                SVProgressHUD.showInfo(withStatus: "密码必须同时包含数字和字母")
+                
+            }
         }
+        
     }
 }

@@ -9,15 +9,22 @@
 import Foundation
 import UIKit
 extension UIButton{
-    static func lee_initTextButton(frame:CGRect,text:String,textColor:UIColor,font:UIFont,bgColor:UIColor,selector:Selector) -> UIButton {
+    static func lee_initTextButton(frame:CGRect,text:String,textColor:UIColor,font:UIFont,bgColor:UIColor) -> UIButton {
         let textButton = UIButton()
         textButton.frame = frame
-        textButton.titleLabel?.text = text
-        textButton.titleLabel?.textColor = textColor
+        textButton.setTitle(text, for: .normal)
+         textButton.setTitleColor(textColor, for: .normal)
         textButton.titleLabel?.font = font
         textButton.backgroundColor = bgColor
-        textButton.addTarget(self, action: selector, for: .touchUpInside)
         return textButton
+    }
+    
+    static func lee_initImageButton(frame:CGRect,image:UIImage) -> UIButton {
+        let imageButton = UIButton()
+        imageButton.frame = frame
+        imageButton.setImage(image, for: .normal)
+       
+        return imageButton
     }
 }
 

@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class LeeLoginVC: LeeBaseVC,LeeStoryboardLoad {
 
-    @IBOutlet weak var photoTextField: UITextField!
+    @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
@@ -24,8 +25,8 @@ class LeeLoginVC: LeeBaseVC,LeeStoryboardLoad {
     func initUI(){
         UIView.lee_radius(view: loginButton, r: 23)
         UIView.lee_getGradient(view: loginButton, startColor: UIColor.lee_convenient(r: 255, g: 178, b: 50), endColor: UIColor.lee_convenient(r: 255, g: 204, b: 33), startPoint: CGPoint(x: 0, y: 0  ), endPoint: CGPoint(x: 1, y: 1))
-        photoTextField.keyboardType = .numberPad
-        photoTextField.addTarget(self, action: #selector(textValueDidChange), for: .editingChanged)
+        phoneTextField.keyboardType = .numberPad
+        phoneTextField.addTarget(self, action: #selector(textValueDidChange), for: .editingChanged)
         
     }
     
@@ -48,31 +49,30 @@ class LeeLoginVC: LeeBaseVC,LeeStoryboardLoad {
 extension LeeLoginVC{
     
     @objc func textValueDidChange(){
-        if let text = photoTextField.text{
-           photoTextField.text = String(text.prefix(11))
+        if let text = phoneTextField.text{
+           phoneTextField.text = String(text.prefix(11))
         }
     }
     
     @IBAction func commitAction(_ sender: Any) {
-        if String.validPhoneNumber(phoneStr: photoTextField.text){
+        if String.validPhoneNumber(phoneStr: phoneTextField.text){
             loginButton.isUserInteractionEnabled = false;
-            NetworkTool.checkPhoneRequest(mobile: photoTextField.text ?? "", completionHandler: {[weak self]  (dataDic) in
+            NetworkTool.checkPhoneRequest(mobile: phoneTextField.text ?? "", completionHandler: {[weak self]  (dataDic) in
                 self?.loginButton.isUserInteractionEnabled = true;
                 let code = dataDic["code"]as!NSNumber
-                if code == 1001{
+                if code == leeNetworkOvertimeError{
+                    UserDefaults.standard.set(self?.phoneTextField!.text, forKey: String.lee_phoneNumberKey())
                     let confirmVC = LeeConfirmVC.loadStoryboard()
                     self!.navigationController?.pushViewController(confirmVC, animated: true)
                 }else{
-                    //不提示msg是因为app中账号不存在是去注册
-                    //                    dataDic["msg"]
-                   self!.alertAction(alertTitle: "提示", alertMsg: "手机号码不存在", sureTitle: "确定", sureClosure: {})
-                    
+                    SVProgressHUD.showError(withStatus: "手机号码不存在")
                 }
-            }) { [weak self] in
+            }) {[weak self] (error) in
+                SVProgressHUD.showError(withStatus: error?.localizedDescription)
                 self?.loginButton.isUserInteractionEnabled = true;
             }
         }else{
-           alertAction(alertTitle: "提示", alertMsg: "手机号码格式不正确", sureTitle: "确定", sureClosure: {})
+           SVProgressHUD.showError(withStatus: "手机号码格式不正确")
         }
     }
 }

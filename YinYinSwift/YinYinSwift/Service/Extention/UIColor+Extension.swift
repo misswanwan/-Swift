@@ -9,12 +9,21 @@
 import Foundation
 import UIKit
 extension UIColor{
+    
+    static func lee_globalColor() -> UIColor{
+        return UIColor.lee_convenient(r: 255, g: 195, b: 1)
+    }
+    
     static func lee_initSingleColor(color:Int) -> UIColor{
         return UIColor.init(red: CGFloat(color)/CGFloat(255), green: CGFloat(color)/CGFloat(255), blue: CGFloat(color)/CGFloat(255), alpha: 1)
     }
     
     static func lee_convenient(r:Int,g:Int,b:Int)->UIColor{
         return UIColor.init(red: CGFloat(r)/CGFloat(255), green: CGFloat(g)/CGFloat(255), blue: CGFloat(b)/CGFloat(255), alpha: 1)
+    }
+    
+    static func lee_convenient(r:Int,g:Int,b:Int,a:Float)->UIColor{
+        return UIColor.init(red: CGFloat(r)/CGFloat(255), green: CGFloat(g)/CGFloat(255), blue: CGFloat(b)/CGFloat(255), alpha: CGFloat(a))
     }
     
 }

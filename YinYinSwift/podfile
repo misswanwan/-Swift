@@ -9,12 +9,15 @@ target 'YinYinSwift' do
   pod 'Kingfisher'
   pod 'SwiftTheme'
   pod 'RxSwift'
+  pod 'HandyJSON' 
   pod 'RxCocoa'
   pod 'SQLite.swift'
   pod 'SVProgressHUD'
   pod 'MJRefresh'
+  pod 'SnapKit'
   pod 'FDFullscreenPopGesture'
   pod 'lottie-ios'
+  pod 'AliyunOSSiOS'
   # Pods for YinYinSwift
 
   target 'YinYinSwiftTests' do

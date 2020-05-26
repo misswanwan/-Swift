@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0610ED31225362F30017B652 /* LeeTouchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610ED30225362F30017B652 /* LeeTouchTableView.swift */; };
+		0610ED33225378DA0017B652 /* LeeScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610ED32225378DA0017B652 /* LeeScrollCell.swift */; };
+		0610ED35225380D90017B652 /* LeeHomepageProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610ED34225380D90017B652 /* LeeHomepageProtocal.swift */; };
+		063ACFB72251E63100E05DA6 /* LeeHotPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063ACFB62251E63100E05DA6 /* LeeHotPostVC.swift */; };
+		063ACFB92251E64200E05DA6 /* LeeNewPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063ACFB82251E64200E05DA6 /* LeeNewPostVC.swift */; };
+		063ACFCA2251F08F00E05DA6 /* LeeHomepageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063ACFC92251F08F00E05DA6 /* LeeHomepageHeaderView.swift */; };
+		063ACFCC2251FAD000E05DA6 /* LeePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063ACFCB2251FAD000E05DA6 /* LeePostCell.swift */; };
+		06639709227ED42700BDA7E0 /* LeeCommpentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06639708227ED42700BDA7E0 /* LeeCommpentModel.swift */; };
+		0677DC6A2293C9AE00951746 /* LeeTalkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677DC692293C9AE00951746 /* LeeTalkCell.swift */; };
+		0677DC6C2293C9BB00951746 /* LeeTalkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0677DC6B2293C9BB00951746 /* LeeTalkCell.xib */; };
+		0677DC6E2293DF4000951746 /* LeeTalkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677DC6D2293DF4000951746 /* LeeTalkModel.swift */; };
+		0677DC702293E35900951746 /* LeeTalkSubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677DC6F2293E35900951746 /* LeeTalkSubVC.swift */; };
+		0677DC722293E81200951746 /* LeeTalkSegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677DC712293E81200951746 /* LeeTalkSegView.swift */; };
+		0677DC7422951D4300951746 /* LeeTalkHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677DC7322951D4300951746 /* LeeTalkHeaderView.swift */; };
+		0677DC76229525E600951746 /* NewworkTool+Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677DC75229525E600951746 /* NewworkTool+Talk.swift */; };
 		067A04F02248F81A0026C458 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A04EF2248F81A0026C458 /* UILabel+Extension.swift */; };
 		067A04F22248F8300026C458 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A04F12248F8300026C458 /* UIButton+Extension.swift */; };
 		067A04F42248F84A0026C458 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A04F32248F84A0026C458 /* UITextField+Extension.swift */; };
@@ -16,6 +31,13 @@
 		067A04FC2248F87F0026C458 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A04FB2248F87F0026C458 /* UIImage+Extension.swift */; };
 		067A04FE2248FC0E0026C458 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A04FD2248FC0E0026C458 /* NSData+Extension.swift */; };
 		067A0502224A58C70026C458 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A0501224A58C70026C458 /* NSObject+Extension.swift */; };
+		067A050A224CC5800026C458 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A0509224CC5800026C458 /* String+Extension.swift */; };
+		067A0510224CE2560026C458 /* LeeUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A050F224CE2560026C458 /* LeeUserModel.swift */; };
+		067A0512224CEE9F0026C458 /* LeeUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A0511224CEE9F0026C458 /* LeeUserManager.swift */; };
+		06940974227FCEB70023E3DB /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06940973227FCEB70023E3DB /* RefreshView.swift */; };
+		06BC77A9226DABC6008EC18A /* NetworkTool+Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC77A8226DABC6008EC18A /* NetworkTool+Homepage.swift */; };
+		06C113A0228A6BD000A4EBEA /* LeeRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1139F228A6BD000A4EBEA /* LeeRecordView.swift */; };
+		06C113A2228D122600A4EBEA /* Lee_Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C113A1228D122600A4EBEA /* Lee_Utils.swift */; };
 		06C20659223FC00400484B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C20658223FC00400484B51 /* AppDelegate.swift */; };
 		06C20661223FC00400484B51 /* YinYinSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06C2065F223FC00400484B51 /* YinYinSwift.xcdatamodeld */; };
 		06C20663223FC00500484B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C20662223FC00500484B51 /* Assets.xcassets */; };
@@ -39,9 +61,20 @@
 		06C2079D2244BFC800484B51 /* LeePhoneCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2079C2244BFC800484B51 /* LeePhoneCodeVC.swift */; };
 		06C207A12244BFFA00484B51 /* LeeConfirmVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C207A02244BFFA00484B51 /* LeeConfirmVC.storyboard */; };
 		06C207A32244C00A00484B51 /* LeePhoneCodeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C207A22244C00A00484B51 /* LeePhoneCodeVC.storyboard */; };
-		06C207A72244CA1D00484B51 /* Lee_Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C207A62244CA1D00484B51 /* Lee_Utils.swift */; };
 		06C207A92245E1A100484B51 /* LeeBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C207A82245E1A100484B51 /* LeeBaseVC.swift */; };
 		86B83C1BC0BCBF50C0459A0A /* Pods_YinYinSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8023FE93506EEFD16A48C8 /* Pods_YinYinSwiftTests.framework */; };
+		8E0833A622F8211000A9206F /* LeeTalkRecommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0833A522F8211000A9206F /* LeeTalkRecommendCell.swift */; };
+		8E0833A822F9664B00A9206F /* NetworkTool+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0833A722F9664B00A9206F /* NetworkTool+Login.swift */; };
+		8E0833AA22F96E8800A9206F /* LeeAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0833A922F96E8800A9206F /* LeeAccountCell.swift */; };
+		8E0833AC22F96E9F00A9206F /* LeeAccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0833AB22F96E9F00A9206F /* LeeAccountHeaderView.swift */; };
+		8E0833AE22F971FD00A9206F /* LeeMineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0833AD22F971FD00A9206F /* LeeMineModel.swift */; };
+		8E0833B022F97B4B00A9206F /* AccountCellList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E0833AF22F97B4B00A9206F /* AccountCellList.plist */; };
+		8E0833B222F9991300A9206F /* NetworkTool+Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0833B122F9991300A9206F /* NetworkTool+Mine.swift */; };
+		8E0E4AAE230D200B00E4444C /* LeePickImageProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E4AAD230D200B00E4444C /* LeePickImageProtocal.swift */; };
+		8E0E4AB0230D208F00E4444C /* LeeBaseVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E4AAF230D208F00E4444C /* LeeBaseVC+Extension.swift */; };
+		8E0E4AB2230D2A6500E4444C /* LeeAuthorityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E4AB1230D2A6500E4444C /* LeeAuthorityManager.swift */; };
+		8E0E4ABF230E885600E4444C /* LeeOSSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E4ABD230E885500E4444C /* LeeOSSFileManager.m */; };
+		8E63FAD22313BF6A00019E91 /* RXDemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63FAD12313BF6A00019E91 /* RXDemoListVC.swift */; };
 		91700F50452F4756B3817430 /* Pods_YinYinSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3BB0138C00F57005EEE9C0 /* Pods_YinYinSwift.framework */; };
 		C5522F0ADB6AF6C52EAD9E87 /* Pods_YinYinSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECC19BDE60AF0D923D87604 /* Pods_YinYinSwiftUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +97,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0610ED30225362F30017B652 /* LeeTouchTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeTouchTableView.swift; sourceTree = "<group>"; };
+		0610ED32225378DA0017B652 /* LeeScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeScrollCell.swift; sourceTree = "<group>"; };
+		0610ED34225380D90017B652 /* LeeHomepageProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeHomepageProtocal.swift; sourceTree = "<group>"; };
+		063ACFB62251E63100E05DA6 /* LeeHotPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeHotPostVC.swift; sourceTree = "<group>"; };
+		063ACFB82251E64200E05DA6 /* LeeNewPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeNewPostVC.swift; sourceTree = "<group>"; };
+		063ACFC92251F08F00E05DA6 /* LeeHomepageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeHomepageHeaderView.swift; sourceTree = "<group>"; };
+		063ACFCB2251FAD000E05DA6 /* LeePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeePostCell.swift; sourceTree = "<group>"; };
+		06639708227ED42700BDA7E0 /* LeeCommpentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCommpentModel.swift; sourceTree = "<group>"; };
+		0677DC692293C9AE00951746 /* LeeTalkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeTalkCell.swift; sourceTree = "<group>"; };
+		0677DC6B2293C9BB00951746 /* LeeTalkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeeTalkCell.xib; sourceTree = "<group>"; };
+		0677DC6D2293DF4000951746 /* LeeTalkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeTalkModel.swift; sourceTree = "<group>"; };
+		0677DC6F2293E35900951746 /* LeeTalkSubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeTalkSubVC.swift; sourceTree = "<group>"; };
+		0677DC712293E81200951746 /* LeeTalkSegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeTalkSegView.swift; sourceTree = "<group>"; };
+		0677DC7322951D4300951746 /* LeeTalkHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeTalkHeaderView.swift; sourceTree = "<group>"; };
+		0677DC75229525E600951746 /* NewworkTool+Talk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewworkTool+Talk.swift"; sourceTree = "<group>"; };
 		067A04EF2248F81A0026C458 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		067A04F12248F8300026C458 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		067A04F32248F84A0026C458 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
@@ -73,6 +121,13 @@
 		067A04FB2248F87F0026C458 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		067A04FD2248FC0E0026C458 /* NSData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSData+Extension.swift"; sourceTree = "<group>"; };
 		067A0501224A58C70026C458 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		067A0509224CC5800026C458 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		067A050F224CE2560026C458 /* LeeUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeUserModel.swift; sourceTree = "<group>"; };
+		067A0511224CEE9F0026C458 /* LeeUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeUserManager.swift; sourceTree = "<group>"; };
+		06940973227FCEB70023E3DB /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
+		06BC77A8226DABC6008EC18A /* NetworkTool+Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkTool+Homepage.swift"; sourceTree = "<group>"; };
+		06C1139F228A6BD000A4EBEA /* LeeRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeRecordView.swift; sourceTree = "<group>"; };
+		06C113A1228D122600A4EBEA /* Lee_Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lee_Utils.swift; sourceTree = "<group>"; };
 		06C20655223FC00400484B51 /* YinYinSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YinYinSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C20658223FC00400484B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06C20660223FC00400484B51 /* YinYinSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YinYinSwift.xcdatamodel; sourceTree = "<group>"; };
@@ -103,7 +158,6 @@
 		06C2079C2244BFC800484B51 /* LeePhoneCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeePhoneCodeVC.swift; sourceTree = "<group>"; };
 		06C207A02244BFFA00484B51 /* LeeConfirmVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LeeConfirmVC.storyboard; sourceTree = "<group>"; };
 		06C207A22244C00A00484B51 /* LeePhoneCodeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LeePhoneCodeVC.storyboard; sourceTree = "<group>"; };
-		06C207A62244CA1D00484B51 /* Lee_Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lee_Utils.swift; sourceTree = "<group>"; };
 		06C207A82245E1A100484B51 /* LeeBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeBaseVC.swift; sourceTree = "<group>"; };
 		08EE3460EDE09D4E2344382D /* Pods-YinYinSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinYinSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-YinYinSwiftTests/Pods-YinYinSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		0D8023FE93506EEFD16A48C8 /* Pods_YinYinSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YinYinSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +165,20 @@
 		53EA27454DA9DF3CE3B4C210 /* Pods-YinYinSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinYinSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-YinYinSwiftUITests/Pods-YinYinSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F1E473726B3891A85081F3A /* Pods-YinYinSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinYinSwift.debug.xcconfig"; path = "Target Support Files/Pods-YinYinSwift/Pods-YinYinSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		83433FF4E2893D2BB31DF1D9 /* Pods-YinYinSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinYinSwift.release.xcconfig"; path = "Target Support Files/Pods-YinYinSwift/Pods-YinYinSwift.release.xcconfig"; sourceTree = "<group>"; };
+		8E0833A522F8211000A9206F /* LeeTalkRecommendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeTalkRecommendCell.swift; sourceTree = "<group>"; };
+		8E0833A722F9664B00A9206F /* NetworkTool+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkTool+Login.swift"; sourceTree = "<group>"; };
+		8E0833A922F96E8800A9206F /* LeeAccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeAccountCell.swift; sourceTree = "<group>"; };
+		8E0833AB22F96E9F00A9206F /* LeeAccountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeAccountHeaderView.swift; sourceTree = "<group>"; };
+		8E0833AD22F971FD00A9206F /* LeeMineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeMineModel.swift; sourceTree = "<group>"; };
+		8E0833AF22F97B4B00A9206F /* AccountCellList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AccountCellList.plist; sourceTree = "<group>"; };
+		8E0833B122F9991300A9206F /* NetworkTool+Mine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkTool+Mine.swift"; sourceTree = "<group>"; };
+		8E0E4AAD230D200B00E4444C /* LeePickImageProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeePickImageProtocal.swift; sourceTree = "<group>"; };
+		8E0E4AAF230D208F00E4444C /* LeeBaseVC+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeeBaseVC+Extension.swift"; sourceTree = "<group>"; };
+		8E0E4AB1230D2A6500E4444C /* LeeAuthorityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeAuthorityManager.swift; sourceTree = "<group>"; };
+		8E0E4ABD230E885500E4444C /* LeeOSSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeOSSFileManager.m; sourceTree = "<group>"; };
+		8E0E4ABE230E885500E4444C /* LeeOSSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeOSSFileManager.h; sourceTree = "<group>"; };
+		8E0E4AC1230E8E8900E4444C /* yinyin-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yinyin-bridge.h"; sourceTree = "<group>"; };
+		8E63FAD12313BF6A00019E91 /* RXDemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXDemoListVC.swift; sourceTree = "<group>"; };
 		A5E1B9FAA68290450EEFA94D /* Pods-YinYinSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinYinSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-YinYinSwiftTests/Pods-YinYinSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACEA1082BFA4806B6BB8BDA5 /* Pods-YinYinSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinYinSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-YinYinSwiftUITests/Pods-YinYinSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BC3BB0138C00F57005EEE9C0 /* Pods_YinYinSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YinYinSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +222,156 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		063ACFBA2251E65300E05DA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06C2069E223FC16300484B51 /* LeeHomepageVC.swift */,
+				063ACFB62251E63100E05DA6 /* LeeHotPostVC.swift */,
+				063ACFB82251E64200E05DA6 /* LeeNewPostVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		063ACFBB2251E65C00E05DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				063ACFC92251F08F00E05DA6 /* LeeHomepageHeaderView.swift */,
+				0610ED32225378DA0017B652 /* LeeScrollCell.swift */,
+				063ACFCB2251FAD000E05DA6 /* LeePostCell.swift */,
+				0610ED30225362F30017B652 /* LeeTouchTableView.swift */,
+				06C1139F228A6BD000A4EBEA /* LeeRecordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		063ACFBC2251E66100E05DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06639708227ED42700BDA7E0 /* LeeCommpentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		063ACFBD2251E67100E05DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		063ACFBE2251E67500E05DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		063ACFBF2251E67A00E05DA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06C2069A223FC14B00484B51 /* LeeDateVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		063ACFC02251E68000E05DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0677DC692293C9AE00951746 /* LeeTalkCell.swift */,
+				0677DC6B2293C9BB00951746 /* LeeTalkCell.xib */,
+				0677DC712293E81200951746 /* LeeTalkSegView.swift */,
+				0677DC7322951D4300951746 /* LeeTalkHeaderView.swift */,
+				8E0833A522F8211000A9206F /* LeeTalkRecommendCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		063ACFC12251E68700E05DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0677DC6D2293DF4000951746 /* LeeTalkModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		063ACFC22251E68C00E05DA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06C2069C223FC15700484B51 /* LeeTalkVC.swift */,
+				0677DC6F2293E35900951746 /* LeeTalkSubVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		063ACFC32251E69200E05DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E0833A922F96E8800A9206F /* LeeAccountCell.swift */,
+				8E0833AB22F96E9F00A9206F /* LeeAccountHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		063ACFC42251E69600E05DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E0833AD22F971FD00A9206F /* LeeMineModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		063ACFC52251E69A00E05DA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06C206A2223FC17A00484B51 /* LeeMineVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		063ACFC62251E6AE00E05DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		063ACFC72251E6B300E05DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		063ACFC82251E6B800E05DA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		067A050B224CCB670026C458 /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E4ABC230E885500E4444C /* OSSFileManager */,
+				06C206B92241111B00484B51 /* NetworkTool.swift */,
+				8E0833A722F9664B00A9206F /* NetworkTool+Login.swift */,
+				06BC77A8226DABC6008EC18A /* NetworkTool+Homepage.swift */,
+				0677DC75229525E600951746 /* NewworkTool+Talk.swift */,
+				8E0833B122F9991300A9206F /* NetworkTool+Mine.swift */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		067A050C224CE2060026C458 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				067A050F224CE2560026C458 /* LeeUserModel.swift */,
+				067A0511224CEE9F0026C458 /* LeeUserManager.swift */,
+				8E0E4AB1230D2A6500E4444C /* LeeAuthorityManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		06C2064C223FC00400484B51 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +397,7 @@
 		06C20657223FC00400484B51 /* YinYinSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8E0E4AC1230E8E8900E4444C /* yinyin-bridge.h */,
 				06C2068A223FC0B800484B51 /* Service */,
 				06C20689223FC0B100484B51 /* Classes */,
 				06C20662223FC00500484B51 /* Assets.xcassets */,
@@ -186,6 +405,7 @@
 				06C206B722410D3C00484B51 /* Const.swift */,
 				06C20664223FC00500484B51 /* LaunchScreen.storyboard */,
 				06C20667223FC00500484B51 /* Info.plist */,
+				8E0833AF22F97B4B00A9206F /* AccountCellList.plist */,
 				06C2065F223FC00400484B51 /* YinYinSwift.xcdatamodeld */,
 				06C206A4223FC1E900484B51 /* Images.xcassets */,
 				06C206AC223FD6E300484B51 /* remark.h */,
@@ -214,6 +434,7 @@
 		06C20689223FC0B100484B51 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8E63FAD02313BF4900019E91 /* RXDemo */,
 				06C20692223FC0EE00484B51 /* Main */,
 				06C20691223FC0EA00484B51 /* Login */,
 				06C20690223FC0E500484B51 /* Commpent */,
@@ -228,8 +449,10 @@
 		06C2068A223FC0B800484B51 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				067A050C224CE2060026C458 /* Manager */,
 				06C20696223FC11100484B51 /* View */,
 				06C20694223FC0FA00484B51 /* Extention */,
+				8E0E4AAC230D1FDE00E4444C /* Protocal */,
 				06C20693223FC0F500484B51 /* Tool */,
 			);
 			path = Service;
@@ -238,7 +461,9 @@
 		06C2068B223FC0C500484B51 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				06C206A2223FC17A00484B51 /* LeeMineVC.swift */,
+				063ACFC52251E69A00E05DA6 /* Controller */,
+				063ACFC42251E69600E05DA6 /* Model */,
+				063ACFC32251E69200E05DA6 /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -246,7 +471,10 @@
 		06C2068D223FC0D200484B51 /* Homepage */ = {
 			isa = PBXGroup;
 			children = (
-				06C2069E223FC16300484B51 /* LeeHomepageVC.swift */,
+				0610ED34225380D90017B652 /* LeeHomepageProtocal.swift */,
+				063ACFBA2251E65300E05DA6 /* Controller */,
+				063ACFBC2251E66100E05DA6 /* Model */,
+				063ACFBB2251E65C00E05DA6 /* View */,
 			);
 			path = Homepage;
 			sourceTree = "<group>";
@@ -254,7 +482,9 @@
 		06C2068E223FC0D800484B51 /* Talk */ = {
 			isa = PBXGroup;
 			children = (
-				06C2069C223FC15700484B51 /* LeeTalkVC.swift */,
+				063ACFC22251E68C00E05DA6 /* Controller */,
+				063ACFC12251E68700E05DA6 /* Model */,
+				063ACFC02251E68000E05DA6 /* View */,
 			);
 			path = Talk;
 			sourceTree = "<group>";
@@ -262,7 +492,9 @@
 		06C2068F223FC0E000484B51 /* Date */ = {
 			isa = PBXGroup;
 			children = (
-				06C2069A223FC14B00484B51 /* LeeDateVC.swift */,
+				063ACFBF2251E67A00E05DA6 /* Controller */,
+				063ACFBE2251E67500E05DA6 /* Model */,
+				063ACFBD2251E67100E05DA6 /* View */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -270,6 +502,9 @@
 		06C20690223FC0E500484B51 /* Commpent */ = {
 			isa = PBXGroup;
 			children = (
+				063ACFC82251E6B800E05DA6 /* Controller */,
+				063ACFC72251E6B300E05DA6 /* Model */,
+				063ACFC62251E6AE00E05DA6 /* View */,
 			);
 			path = Commpent;
 			sourceTree = "<group>";
@@ -290,6 +525,7 @@
 		06C20692223FC0EE00484B51 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8E0E4AB5230E401300E4444C /* LeeBaseVCChilder */,
 				06C206A8223FC2F200484B51 /* LeeNavigationController.swift */,
 				06C206AA223FC30E00484B51 /* LeeTabBarController.swift */,
 				06C207A82245E1A100484B51 /* LeeBaseVC.swift */,
@@ -300,10 +536,10 @@
 		06C20693223FC0F500484B51 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				06C206B92241111B00484B51 /* NetworkTool.swift */,
+				067A050B224CCB670026C458 /* NetworkTool */,
 				06C206B32240D27A00484B51 /* UIKit+Extension.swift */,
 				06C206B522410B3000484B51 /* Foundation+Extension.swift */,
-				06C207A62244CA1D00484B51 /* Lee_Utils.swift */,
+				06C113A1228D122600A4EBEA /* Lee_Utils.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -320,6 +556,7 @@
 				067A04FB2248F87F0026C458 /* UIImage+Extension.swift */,
 				067A04FD2248FC0E0026C458 /* NSData+Extension.swift */,
 				067A0501224A58C70026C458 /* NSObject+Extension.swift */,
+				067A0509224CC5800026C458 /* String+Extension.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -327,6 +564,7 @@
 		06C20696223FC11100484B51 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				06940973227FCEB70023E3DB /* RefreshView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,6 +580,39 @@
 				ACEA1082BFA4806B6BB8BDA5 /* Pods-YinYinSwiftUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E0E4AAC230D1FDE00E4444C /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E4AAD230D200B00E4444C /* LeePickImageProtocal.swift */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		8E0E4AB5230E401300E4444C /* LeeBaseVCChilder */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E4AAF230D208F00E4444C /* LeeBaseVC+Extension.swift */,
+			);
+			path = LeeBaseVCChilder;
+			sourceTree = "<group>";
+		};
+		8E0E4ABC230E885500E4444C /* OSSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E4ABE230E885500E4444C /* LeeOSSFileManager.h */,
+				8E0E4ABD230E885500E4444C /* LeeOSSFileManager.m */,
+			);
+			path = OSSFileManager;
+			sourceTree = "<group>";
+		};
+		8E63FAD02313BF4900019E91 /* RXDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E63FAD12313BF6A00019E91 /* RXDemoListVC.swift */,
+			);
+			path = RXDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,9 +724,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0833B022F97B4B00A9206F /* AccountCellList.plist in Resources */,
 				06C207A32244C00A00484B51 /* LeePhoneCodeVC.storyboard in Resources */,
 				06C206BE2241189400484B51 /* LeeLoginVC.storyboard in Resources */,
 				06C206A5223FC1E900484B51 /* Images.xcassets in Resources */,
+				0677DC6C2293C9BB00951746 /* LeeTalkCell.xib in Resources */,
 				06C20666223FC00500484B51 /* LaunchScreen.storyboard in Resources */,
 				06C20663223FC00500484B51 /* Assets.xcassets in Resources */,
 				06C207A12244BFFA00484B51 /* LeeConfirmVC.storyboard in Resources */,
@@ -570,28 +843,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				067A04F82248F8650026C458 /* UIView+Extension.swift in Sources */,
+				8E0833AA22F96E8800A9206F /* LeeAccountCell.swift in Sources */,
 				06C206AB223FC30E00484B51 /* LeeTabBarController.swift in Sources */,
 				067A04FE2248FC0E0026C458 /* NSData+Extension.swift in Sources */,
+				8E0E4ABF230E885600E4444C /* LeeOSSFileManager.m in Sources */,
 				06C206B622410B3000484B51 /* Foundation+Extension.swift in Sources */,
+				8E0E4AB0230D208F00E4444C /* LeeBaseVC+Extension.swift in Sources */,
 				067A04FC2248F87F0026C458 /* UIImage+Extension.swift in Sources */,
+				063ACFCC2251FAD000E05DA6 /* LeePostCell.swift in Sources */,
 				06C206A9223FC2F200484B51 /* LeeNavigationController.swift in Sources */,
+				0677DC76229525E600951746 /* NewworkTool+Talk.swift in Sources */,
+				0610ED35225380D90017B652 /* LeeHomepageProtocal.swift in Sources */,
 				06C206BA2241111B00484B51 /* NetworkTool.swift in Sources */,
+				06940974227FCEB70023E3DB /* RefreshView.swift in Sources */,
+				063ACFCA2251F08F00E05DA6 /* LeeHomepageHeaderView.swift in Sources */,
+				0677DC702293E35900951746 /* LeeTalkSubVC.swift in Sources */,
+				8E0833AE22F971FD00A9206F /* LeeMineModel.swift in Sources */,
+				063ACFB72251E63100E05DA6 /* LeeHotPostVC.swift in Sources */,
 				067A0502224A58C70026C458 /* NSObject+Extension.swift in Sources */,
+				8E0833A622F8211000A9206F /* LeeTalkRecommendCell.swift in Sources */,
+				0610ED31225362F30017B652 /* LeeTouchTableView.swift in Sources */,
+				0677DC6E2293DF4000951746 /* LeeTalkModel.swift in Sources */,
 				067A04F22248F8300026C458 /* UIButton+Extension.swift in Sources */,
 				067A04F42248F84A0026C458 /* UITextField+Extension.swift in Sources */,
+				8E0E4AAE230D200B00E4444C /* LeePickImageProtocal.swift in Sources */,
+				067A0512224CEE9F0026C458 /* LeeUserManager.swift in Sources */,
 				06C2079B2244BF5200484B51 /* LeeConfirmVC.swift in Sources */,
+				06BC77A9226DABC6008EC18A /* NetworkTool+Homepage.swift in Sources */,
 				067A04F62248F8570026C458 /* UITextView+Extension.swift in Sources */,
 				06C20659223FC00400484B51 /* AppDelegate.swift in Sources */,
+				0677DC722293E81200951746 /* LeeTalkSegView.swift in Sources */,
+				067A050A224CC5800026C458 /* String+Extension.swift in Sources */,
+				06C113A0228A6BD000A4EBEA /* LeeRecordView.swift in Sources */,
+				063ACFB92251E64200E05DA6 /* LeeNewPostVC.swift in Sources */,
+				0677DC6A2293C9AE00951746 /* LeeTalkCell.swift in Sources */,
+				8E0833A822F9664B00A9206F /* NetworkTool+Login.swift in Sources */,
+				06C113A2228D122600A4EBEA /* Lee_Utils.swift in Sources */,
 				06C206A3223FC17A00484B51 /* LeeMineVC.swift in Sources */,
+				8E63FAD22313BF6A00019E91 /* RXDemoListVC.swift in Sources */,
 				06C206B822410D3C00484B51 /* Const.swift in Sources */,
 				067A04F02248F81A0026C458 /* UILabel+Extension.swift in Sources */,
-				06C207A72244CA1D00484B51 /* Lee_Utils.swift in Sources */,
 				06C206B42240D27A00484B51 /* UIKit+Extension.swift in Sources */,
 				06C2069F223FC16300484B51 /* LeeHomepageVC.swift in Sources */,
+				06639709227ED42700BDA7E0 /* LeeCommpentModel.swift in Sources */,
 				06C207A92245E1A100484B51 /* LeeBaseVC.swift in Sources */,
+				8E0833AC22F96E9F00A9206F /* LeeAccountHeaderView.swift in Sources */,
+				8E0E4AB2230D2A6500E4444C /* LeeAuthorityManager.swift in Sources */,
 				067A04FA2248F8730026C458 /* UIColor+Extension.swift in Sources */,
 				06C2069D223FC15700484B51 /* LeeTalkVC.swift in Sources */,
+				067A0510224CE2560026C458 /* LeeUserModel.swift in Sources */,
+				8E0833B222F9991300A9206F /* NetworkTool+Mine.swift in Sources */,
+				0610ED33225378DA0017B652 /* LeeScrollCell.swift in Sources */,
 				06C20661223FC00400484B51 /* YinYinSwift.xcdatamodeld in Sources */,
+				0677DC7422951D4300951746 /* LeeTalkHeaderView.swift in Sources */,
 				06C20699223FC13D00484B51 /* LeeLoginVC.swift in Sources */,
 				06C2069B223FC14B00484B51 /* LeeDateVC.swift in Sources */,
 				06C2079D2244BFC800484B51 /* LeePhoneCodeVC.swift in Sources */,
@@ -765,6 +1069,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MD94SDTTY8;
 				INFOPLIST_FILE = YinYinSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -777,6 +1082,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MaxBIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YinYinSwift/yinyin-bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -790,6 +1096,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MD94SDTTY8;
 				INFOPLIST_FILE = YinYinSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -800,6 +1107,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MaxBIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YinYinSwift/yinyin-bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

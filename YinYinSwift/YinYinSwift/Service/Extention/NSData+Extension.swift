@@ -11,7 +11,7 @@ import UIKit
 
 extension NSData{
     // MARK: - 压缩图片(到最小多少M)
-    static func lee_compressImage(sourceImage:UIImage,size:CGFloat) -> Data{
+    @objc static func lee_compressImage(sourceImage:UIImage,size:CGFloat) -> Data{
         //压缩图片到100K以下
         var data = UIImage.jpegData(sourceImage)(compressionQuality: 1)!
         while data.count/1024 > 100{

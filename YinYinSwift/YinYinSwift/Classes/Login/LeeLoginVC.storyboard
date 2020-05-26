@@ -106,7 +106,7 @@
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="Iho-bA-XCU" id="MaL-nX-tfv"/>
-                        <outlet property="photoTextField" destination="xnV-1O-nTA" id="UFk-7x-IXg"/>
+                        <outlet property="phoneTextField" destination="xnV-1O-nTA" id="3wi-9U-EoF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RP1-3C-bRH" userLabel="First Responder" sceneMemberID="firstResponder"/>

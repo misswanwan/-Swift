@@ -8,40 +8,7 @@
 
 import UIKit
 
-extension UIViewController{
-    
-    func alertAction(alertTitle:String,alertMsg:String) {
-        let alertController = UIAlertController(title: alertTitle, message:alertMsg, preferredStyle: .alert)
-        self.present(alertController, animated: true, completion: {})
-    }
-    
-    func alertAction(alertTitle:String,alertMsg:String, sureTitle:String,sureClosure:@escaping(lee_Closure)){
-        let alertController = UIAlertController(title: alertTitle, message:alertMsg, preferredStyle: .alert)
-        let sureAction = UIAlertAction(title: sureTitle, style: .default) { (_) in
-            sureClosure()
-        }
-        alertController.addAction(sureAction)
-        self.present(alertController, animated: true, completion: {})
-    }
-    
-    func alertAction(alertTitle:String,alertMsg:String, sureTitle:String,sureClosure:@escaping(lee_Closure),cancleTitle:String,cancleClosure:@escaping lee_Closure){
-        
-        let alertController = UIAlertController(title: alertTitle, message:alertMsg, preferredStyle: .alert)
-//
-        let sureAction = UIAlertAction(title: sureTitle, style: .default) { (_) in
-            sureClosure()
-        }
-        let cancleAction = UIAlertAction(title: cancleTitle, style: .default) { (_) in
-            cancleClosure()
-        }
-        alertController.addAction(cancleAction)
-        alertController.addAction(sureAction)
-        self.present(alertController, animated: true, completion: {})
-    }
-    
-    
-    
-}
+
 
 /************************** load ******************************/
 // MARK: - storyborad 的加载
@@ -73,14 +40,14 @@ extension UITableView{
     
     func lee_registerCell<T:UITableViewCell>(cell:T.Type) where T:LeeReigisterForNib{
         if let nib = T.nib{
-            register(nib, forCellReuseIdentifier: "\(self)")
+            register(nib, forCellReuseIdentifier: T.identifier)
         }else{
-            register(cell, forCellReuseIdentifier: "\(self)")
+            register(cell, forCellReuseIdentifier: T.identifier)
         }
     }
     
     func lee_dequeueReusableCell<T:UITableViewCell>(indexPath:IndexPath) -> T where T:LeeReigisterForNib{
-        return dequeueReusableCell(withIdentifier: "\(self)", for: indexPath) as! T
+        return dequeueReusableCell(withIdentifier: T.identifier, for: indexPath) as! T
     }
 }
 // MARK: - collectionView 的加载和获取
@@ -121,10 +88,7 @@ extension UICollectionView{
     }
 }
 
-
-
-
-
+ 
 
 
 

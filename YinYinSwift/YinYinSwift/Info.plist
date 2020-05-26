@@ -28,6 +28,12 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>是否允许隐隐开启相机拍照以便拍照发送图片</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>是否允许隐隐打开相册供你选择发送的图片</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>是否允许隐隐打开相册供你选择发送的图片</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -20,8 +20,8 @@ let lee_isIphoneX = (lee_statusBarH==20) ? false : true
 let lee_navH:CGFloat = 44.0
 let lee_navTopH:CGFloat = lee_statusBarH+lee_navH
 let lee_safeH:CGFloat = lee_isIphoneX ? 34 : 0
-let lee_tabBottom:CGFloat = lee_safeH + 49
-let lee_totalH:CGFloat = lee_tabBottom+lee_navTopH
+let lee_tabBottomH:CGFloat = lee_safeH + 49
+let lee_totalH:CGFloat = lee_tabBottomH+lee_navTopH
 let lee_scale = Screen_Width/375.0
 
 let lee_baseUrl = "https://yinyinyuliao.com"
@@ -46,4 +46,4 @@ func JZLLog<T>(message: T,
 }
 
 typealias lee_Closure = (() -> Void)
-typealias lee_optionClosure = (() -> ())?
+typealias lee_optionClosure = (() -> (Void)?)

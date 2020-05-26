@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+        <dict>
+            <key>image</key>
+            <string>LeeAlbum</string>
+            <key>title</key>
+            <string>我的相册</string>
+            <key>detail</key>
+            <string></string>
+            <key>url</key>
+            <string></string>
+        </dict>
+		
+	</array>
+	<array>
+        <dict>
+            <key>image</key>
+            <string>LeeDynamic</string>
+            <key>title</key>
+            <string>我的动态</string>
+            <key>detail</key>
+            <string></string>
+            <key>url</key>
+            <string>/mixAppAboutUsm.html</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>LeeMineFooter</string>
+            <key>title</key>
+            <string>谁看过我</string>
+            <key>detail</key>
+            <string></string>
+            <key>url</key>
+            <string></string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>LeeMineRealName</string>
+            <key>title</key>
+            <string>实名认证</string>
+            <key>detail</key>
+            <string></string>
+            <key>url</key>
+            <string></string>
+        </dict>
+		<dict>
+			<key>image</key>
+			<string>LeeTask</string>
+			<key>title</key>
+			<string>我的任务</string>
+			<key>detail</key>
+			<string></string>
+			<key>url</key>
+			<string></string>
+		</dict>
+        <dict>
+            <key>image</key>
+            <string>LeeCustomService</string>
+            <key>title</key>
+            <string>我的任务</string>
+            <key>客服与帮助</key>
+            <string></string>
+            <key>url</key>
+            <string></string>
+        </dict>
+	</array>
+</array>
+</plist>
